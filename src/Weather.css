@@ -45,7 +45,8 @@ line-height: 64px;
     color: rgb (33, 33,33);
     font-size: 16px;
     font-weight: 400;
-       
+       position: relative;
+       top: 7px;
     line-height: 1;
     
 }
