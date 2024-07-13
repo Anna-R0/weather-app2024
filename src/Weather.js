@@ -19,7 +19,7 @@ export default function Weather (props){
             date: new Date(response.data.dt*1000),
             ready:true,
 
-iconUrl:"https://ssl.gstatic.com/onebox/weather/64/cloudy.png",             
+iconUrl:"https://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png",             
         })
   
         }
