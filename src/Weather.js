@@ -3,6 +3,7 @@ import axios from "axios";
 import "./Weather.css"
 import FormattedDate from "./FormattedDate";
 import WeatherInfo from "./WeatherInfo";
+import WeatherForecast from "./WeatherForecast";
 
 export default function Weather (props){
  
@@ -62,6 +63,7 @@ icon:response.data.weather[0].icon,
     </div>
             </form>
             <WeatherInfo data= {weatherData} />
+            <WeatherForecast />
    
         </div>)
     }else{
